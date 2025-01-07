@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: gray;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin-left: 150px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgb(62, 8, 8);
+}
+
+.logo {
+    color: red;
+    font-size: 20px;
+}
+
+span {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/pexels-eslames1-27913353.jpg");
+}
+
+.main-content {
+    margin-top: 150px;
+}
+
+.main-content h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.main-content p {
+    color: white;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.images {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.img {
+    flex: 25%;
+    height: 600px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
